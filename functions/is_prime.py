@@ -15,5 +15,6 @@ def is_prime(num):
             break
     return prime
 
-main()
+if __name__ == "__main()__":
+    main()
 
