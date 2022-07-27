@@ -15,6 +15,9 @@ def is_prime(num):
             break
     return prime
 
+# The code under the conditional will only get called
+# upon when is_prime.py is execeted as python not when
+# is imported  as a module in another script
 if __name__ == "__main()__":
     main()
 
