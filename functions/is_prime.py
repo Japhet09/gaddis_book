@@ -4,6 +4,7 @@ def main():
         print("the number is prime")
     else:
        print("The number is not prime")
+    
       
     
 def is_prime(num):
@@ -15,3 +16,4 @@ def is_prime(num):
     return prime
 
 main()
+
