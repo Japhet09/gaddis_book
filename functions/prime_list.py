@@ -19,6 +19,7 @@ def prime_list(num_list):
     for i in num_list:
         if is_prime(i):
             p_list.append(i)
+    print(f"Total {len(p_list)}")
     print("The prime numbers are", p_list, sep = "\n")
     return p_list
 
